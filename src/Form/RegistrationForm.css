@@ -1,0 +1,77 @@
+.formBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    box-shadow: -1px 10px 47px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 10px 47px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 47px 0px rgba(0,0,0,0.75);
+    border:2px solid ;
+    background: #a8edea; background: -moz-linear-gradient(to right,  #a8edea 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #a8edea 0%,#fed6e3 100%); background: linear-gradient(to right,  #a8edea 0%,#fed6e3 100%);
+
+  
+
+}
+
+h1,h2,h3{
+    margin-left: 10px;
+}
+
+
+input{
+  border-radius: 0.5rem;
+  border:2px solid;
+}
+
+
+fieldset{
+  border:2px solid;
+}
+
+
+
+.fa {
+  padding: 0.5em;
+  font-size: 1.5rem;
+  width: 2em;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2rem;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    
+    color: white;
+  }
+
+  .fa-google {
+    background: #9e0303;
+    color: white;
+  }
+
+
+
+  

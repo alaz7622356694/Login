@@ -1,0 +1,56 @@
+.main{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.textBox{
+  width: 50vw;
+  background-color: rgb(213, 128, 255);
+  align-content: center;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 2rem;
+ 
+
+}
+
+.img{
+  width: 500px;
+  height: 250px;
+ max-width: 100%;
+  background-image: url("../images/react.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  
+}
+.btn {
+ 
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border: 2px solid;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
